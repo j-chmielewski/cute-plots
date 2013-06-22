@@ -17,6 +17,6 @@ ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 
-surf = ax.plot_surface(X, Y, Z, cmap=cm.summer)
+surf = ax.plot_surface(X, Y, Z, alpha=.75, cmap=cm.summer)
 fig.colorbar(surf, shrink=.75)
 plt.show()
