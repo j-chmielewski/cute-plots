@@ -7,8 +7,8 @@ from numpy import arange, sin, cos, pi, ones, linspace
 fig = plt.figure()
 r = arange(0.1, 1, .01)
 
-# assume fixed m1*m2
-m1m2 = 10
+# assume fixed m1*m2 (earth vs car)
+m1m2 = 5.97219e24 * 10e3
 # gravitational constant
 G = 6.67384e-11
 
