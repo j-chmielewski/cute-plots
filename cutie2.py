@@ -10,5 +10,10 @@ ax = fig.add_subplot(111, projection='3d')
 r = arange(-40, 40, .1)
 print len(r)
 for i in range(0, 10):
-    ax.scatter(r, i*r**2*sin(r), i*r**2*cos(r))
+    ax.plot(r, i*r**2*sin(r), i*r**2*cos(r))
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+
 plt.show()

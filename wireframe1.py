@@ -16,6 +16,5 @@ ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 
-
 ax.plot_wireframe(X, Y, Z)
 plt.show()
